@@ -19,7 +19,7 @@ public class Customer {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int customerId;
+    private Long customerId;
 
 
     @NotEmpty
